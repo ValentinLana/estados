@@ -12,18 +12,18 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Material App Bar'),
+          title: const Text('Material App Bar'),
         ),
         body: Center(
           child: Container(
-            child: Text('Hello World'),
+            child: const Text('Hello World'),
           ),
         ),
       ),
       initialRoute: 'pagina1',
       routes: {
-        'pagina1': (_) => Pagina1Page(),
-        'pagina2': (_) => Pagina2Page(),
+        'pagina1': (_) => const Pagina1Page(),
+        'pagina2': (_) => const Pagina2Page(),
       },
     );
   }

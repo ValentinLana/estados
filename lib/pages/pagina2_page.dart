@@ -13,7 +13,7 @@ class Pagina2Page extends StatelessWidget {
           children: [
             MaterialButton(
                 child: const Text(
-                  'Establecer usuario',
+                   'Establecer usuario',
                   style: TextStyle(color: Colors.white),
                 ),
                 color: Colors.blue,
